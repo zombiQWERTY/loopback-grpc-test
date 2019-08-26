@@ -25,32 +25,32 @@ export namespace Greeter {
     sayTest(request: TestRequest): TestReply;
   }
   /**
-   * @namespace Greeter.sayHello
+   * @namespace Greeter.SayHello
    * @author Jonathan Casarrubias <t: johncasarrubias>
    * @license MIT
    * @description Greeter method configuration
    * from the given gRPC Greeter service.
    */
-  export namespace sayHello {
+  export namespace SayHello {
     export const PROTO_NAME: string = 'greeter.proto';
     export const PROTO_PACKAGE: string = 'greeterpackage';
     export const SERVICE_NAME: string = 'Greeter';
-    export const METHOD_NAME: string = 'sayHello';
+    export const METHOD_NAME: string = 'SayHello';
     export const REQUEST_STREAM: boolean = false;
     export const RESPONSE_STREAM: boolean = false;
   }
   /**
-   * @namespace Greeter.sayTest
+   * @namespace Greeter.SayTest
    * @author Jonathan Casarrubias <t: johncasarrubias>
    * @license MIT
    * @description Greeter method configuration
    * from the given gRPC Greeter service.
    */
-  export namespace sayTest {
+  export namespace SayTest {
     export const PROTO_NAME: string = 'greeter.proto';
     export const PROTO_PACKAGE: string = 'greeterpackage';
     export const SERVICE_NAME: string = 'Greeter';
-    export const METHOD_NAME: string = 'sayTest';
+    export const METHOD_NAME: string = 'SayTest';
     export const REQUEST_STREAM: boolean = false;
     export const RESPONSE_STREAM: boolean = false;
   }

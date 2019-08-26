@@ -12,11 +12,11 @@ import {
  **/
 export class GreeterCtrl implements Greeter.Service {
   // Tell LoopBack that this is a Service RPC implementation
-  @grpc(Greeter.sayHello)
+  @grpc(Greeter.SayHello)
   sayHello(request: HelloRequest): HelloReply {
     return {message: 'Hello ' + request.name};
   }
-  @grpc(Greeter.sayTest)
+  @grpc(Greeter.SayTest)
   sayTest(request: TestRequest): TestReply {
     return {message: 'Hello ' + request.name};
   }

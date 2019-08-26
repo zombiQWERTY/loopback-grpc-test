@@ -2,8 +2,8 @@ syntax = "proto3";
 package greeterpackage;
 
 service Greeter {
-  rpc sayHello (HelloRequest) returns (HelloReply) {}
-  rpc sayTest (TestRequest) returns (TestReply) {}
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc SayTest (TestRequest) returns (TestReply) {}
 }
 
 message HelloRequest {
